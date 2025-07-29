@@ -1,0 +1,61 @@
+Act as an expert full-stack developer and a world-class UI/UX designer. Your task is to generate the complete source code for a landing page for a company named "Jusikhoesa Aneun Marketing" (주식회사 아는마케팅).
+
+**1. Project Overview:**
+"Aneun Marketing" is not just a web agency. It's a full-stack business partner that provides end-to-end solutions, from building e-commerce websites with integrated payment gateways to executing strategic digital marketing. Their key differentiator is being an official partner of "Toss Payments," enabling them to build seamless and reliable "buy-now" functionalities directly into client websites.
+
+**2. Technical Specifications:**
+*   **Frontend:** Create a Next.js 14 project using TypeScript.
+*   **Styling:** Use Tailwind CSS for all styling. Ensure the configuration is set up correctly.
+*   **Backend:** For the contact form submission, set up a simple API endpoint using Python with FastAPI. The endpoint should be able to receive the structured data from the form.
+*   **Responsiveness:** The design must be fully responsive and mobile-first. All elements and animations must work flawlessly on devices ranging from small mobile screens to large desktops.
+
+**3. Landing Page Structure & Content (Create a single-page scrolling website):**
+
+*   **Section 1: Hero Section (The First Impression)**
+    *   **Headline:** "아이디어가 바로 매출로, 아는마케팅은 개발과 마케팅을 한번에 끝냅니다." (Ideas to Revenue, Instantly. Aneun Marketing handles Development and Marketing all at once.)
+    *   **Sub-headline:** "토스페이먼츠 공식 파트너사. 결제되는 홈페이지부터 바이럴 마케팅까지, 당신의 비즈니스는 성공만 준비하세요." (Official Toss Payments Partner. From e-commerce sites to viral marketing, you just need to prepare for success.)
+    *   **Visual:** A subtle, sophisticated animation. For example, abstract code snippets and marketing icons (like a rising chart, a heart icon) could be floating in a dark, professional background. When the page loads, they converge to form the company logo or a central graphic element.
+    *   **CTA Button:** "프로젝트 문의하기" (Inquire about a Project) - This button smoothly scrolls down to the Contact section.
+
+*   **Section 2: Our Core Services**
+    *   **Layout:** Use a 4-column card layout. Each card should have a clean icon, a service title, and a short description. When hovered over, the card should slightly lift up with a soft shadow.
+    *   **Cards:**
+        1.  **결제 연동 홈페이지 개발 (Website Dev with Payment)**: 토스페이먼츠 PG 연동으로 즉시 판매가 가능한 쇼핑몰 및 예약 사이트 구축
+        2.  **전략적 SNS 마케팅 (Strategic SNS Marketing)**: 인스타그램, 블로그를 활용한 브랜딩 및 잠재고객 확보
+        3.  **바이럴 영상 제작 (Viral Video Production)**: 유튜브, 틱톡 숏폼을 통한 폭발적 인지도 상승
+        4.  **통합 비즈니스 컨설팅 (Integrated Business Consulting)**: 개발부터 마케팅까지, 성장을 위한 로드맵 설계
+
+*   **Section 3: Why Aneun Marketing? (Our Strength)**
+    *   **Highlight 1:** A prominent section featuring the **"Toss Payments 공식 파트너사" (Official Partner) logo**. Add text explaining the stability and reliability this brings.
+    *   **Highlight 2:** A simple graphic showing a cycle: [기획/개발 (Planning/Dev)] -> [결제 시스템 탑재 (Payment Integration)] -> [마케팅/판매 (Marketing/Sales)] -> [데이터 분석 (Data Analysis)] -> loop back. This visually represents the all-in-one structure.
+
+*   **Section 4: Portfolio / Success Stories**
+    *   **Layout:** A filterable gallery (e.g., filters for 'Website', 'SNS', 'Video').
+    *   **Content:** Use placeholder images/videos for now, but structure it to be easily replaceable. Each item should have a client name and a short success metric (e.g., "매출 200% 성장", "예약률 3배 증가").
+
+*   **Section 5: Contact Us (The Detailed Inquiry Form)**
+    *   **Title:** "어떤 도움이 필요하신가요?" (How can we help you?)
+    *   **Subtitle:** "필요한 서비스를 모두 선택해주세요. 더 정확한 상담이 가능합니다." (Please select all services you need for a more accurate consultation.)
+    *   **Step 1: Service Selection (Checkboxes, multiple selections allowed)**
+        *   [ ] 홈페이지 신규 제작 (New Website)
+        *   [ ] 기존 홈페이지 리뉴얼 (Website Renewal)
+        *   [ ] 블로그 마케팅 (Blog Marketing)
+        *   [ ] 인스타그램/페이스북 마케팅 (Instagram/Facebook Marketing)
+        *   [ ] 유튜브/틱톡 영상 제작 (YouTube/TikTok Video Production)
+        *   [ ] 통합 마케팅 컨설팅 (Integrated Marketing Consulting)
+        *   [ ] 기타 문의 (Other)
+    *   **Step 2: Conditional Fields (Appears if a relevant checkbox is ticked)**
+        *   *If '홈페이지' is selected, show:* "예상 예산이 어떻게 되시나요?" (What is your estimated budget?) - Dropdown list (e.g., ~500만원, 500~1000만원, 1000만원 이상, 미정)
+    *   **Step 3: Basic Information (Input Fields)**
+        *   회사명/성함 (Company/Name)
+        *   연락처 (Phone Number)
+        *   이메일 (Email)
+        *   내용 (Message - a small textarea for additional details)
+    *   **Submit Button:** "문의 내용 보내기" (Send Inquiry) - with a satisfying click animation.
+
+**4. Animation & Polish:**
+*   Implement on-scroll fade-in animations for each section.
+*   Interactive elements (buttons, cards) must have subtle hover and active states.
+*   Use a professional and modern font pairing (e.g., from Google Fonts).
+
+Please generate the complete, production-ready code for this landing page based on these detailed instructions.

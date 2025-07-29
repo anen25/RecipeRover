@@ -1,0 +1,102 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- 메인 배경 그라디언트 - 밝은 톤 -->
+    <linearGradient id="mainBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8fafc;stop-opacity:1" />
+      <stop offset="30%" style="stop-color:#e2e8f0;stop-opacity:1" />
+      <stop offset="70%" style="stop-color:#f1f5f9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e0e7ff;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- 밝은 건물들을 위한 그라디언트 -->
+    <linearGradient id="building1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#e2e8f0;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#cbd5e1;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="building2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f1f5f9;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#e2e8f0;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- 창문 - 밝은 블루 -->
+    <linearGradient id="windowLight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:0.6" />
+      <stop offset="50%" style="stop-color:#60a5fa;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:0.6" />
+    </linearGradient>
+    
+    <!-- 하늘 글로우 -->
+    <radialGradient id="skyGlow" cx="50%" cy="30%" r="60%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:0.08" />
+      <stop offset="50%" style="stop-color:#8b5cf6;stop-opacity:0.04" />
+      <stop offset="100%" style="stop-color:#f8fafc;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  
+  <!-- 메인 배경 -->
+  <rect width="100%" height="100%" fill="url(#mainBg)"/>
+  
+  <!-- 하늘 글로우 효과 -->
+  <rect width="100%" height="100%" fill="url(#skyGlow)"/>
+  
+  <!-- 도시 스카이라인 - 뒷줄 건물들 -->
+  <rect x="0" y="600" width="150" height="480" fill="url(#building2)" opacity="0.6"/>
+  <rect x="200" y="550" width="120" height="530" fill="url(#building1)" opacity="0.5"/>
+  <rect x="400" y="650" width="180" height="430" fill="url(#building2)" opacity="0.7"/>
+  <rect x="650" y="500" width="140" height="580" fill="url(#building1)" opacity="0.6"/>
+  <rect x="850" y="600" width="160" height="480" fill="url(#building2)" opacity="0.5"/>
+  <rect x="1100" y="450" width="200" height="630" fill="url(#building1)" opacity="0.8"/>
+  <rect x="1350" y="580" width="130" height="500" fill="url(#building2)" opacity="0.6"/>
+  <rect x="1550" y="520" width="170" height="560" fill="url(#building1)" opacity="0.7"/>
+  <rect x="1750" y="600" width="170" height="480" fill="url(#building2)" opacity="0.5"/>
+  
+  <!-- 앞줄 건물들 -->
+  <rect x="100" y="700" width="100" height="380" fill="url(#building1)" opacity="0.9"/>
+  <rect x="300" y="650" width="80" height="430" fill="url(#building2)" opacity="0.8"/>
+  <rect x="500" y="720" width="120" height="360" fill="url(#building1)" opacity="0.9"/>
+  <rect x="750" y="680" width="90" height="400" fill="url(#building2)" opacity="0.8"/>
+  <rect x="950" y="700" width="110" height="380" fill="url(#building1)" opacity="0.9"/>
+  <rect x="1200" y="650" width="100" height="430" fill="url(#building2)" opacity="0.8"/>
+  <rect x="1400" y="720" width="80" height="360" fill="url(#building1)" opacity="0.9"/>
+  <rect x="1600" y="680" width="120" height="400" fill="url(#building2)" opacity="0.8"/>
+  
+  <!-- 건물 창문들 -->
+  <!-- 큰 건물 창문들 -->
+  <rect x="1120" y="480" width="15" height="8" fill="url(#windowLight)" opacity="0.8"/>
+  <rect x="1150" y="490" width="15" height="8" fill="url(#windowLight)" opacity="0.6"/>
+  <rect x="1180" y="500" width="15" height="8" fill="url(#windowLight)" opacity="0.9"/>
+  <rect x="1120" y="520" width="15" height="8" fill="url(#windowLight)" opacity="0.7"/>
+  <rect x="1150" y="530" width="15" height="8" fill="url(#windowLight)" opacity="0.8"/>
+  <rect x="1180" y="540" width="15" height="8" fill="url(#windowLight)" opacity="0.6"/>
+  
+  <!-- 다른 건물들 창문 -->
+  <rect x="220" y="580" width="12" height="6" fill="url(#windowLight)" opacity="0.7"/>
+  <rect x="240" y="590" width="12" height="6" fill="url(#windowLight)" opacity="0.5"/>
+  <rect x="420" y="680" width="12" height="6" fill="url(#windowLight)" opacity="0.8"/>
+  <rect x="440" y="690" width="12" height="6" fill="url(#windowLight)" opacity="0.6"/>
+  <rect x="670" y="530" width="12" height="6" fill="url(#windowLight)" opacity="0.9"/>
+  <rect x="690" y="540" width="12" height="6" fill="url(#windowLight)" opacity="0.7"/>
+  <rect x="1570" y="550" width="12" height="6" fill="url(#windowLight)" opacity="0.8"/>
+  <rect x="1590" y="560" width="12" height="6" fill="url(#windowLight)" opacity="0.6"/>
+  
+  <!-- 앞줄 건물 창문들 -->
+  <rect x="320" y="680" width="10" height="6" fill="url(#windowLight)" opacity="0.9"/>
+  <rect x="335" y="690" width="10" height="6" fill="url(#windowLight)" opacity="0.7"/>
+  <rect x="520" y="750" width="10" height="6" fill="url(#windowLight)" opacity="0.8"/>
+  <rect x="535" y="760" width="10" height="6" fill="url(#windowLight)" opacity="0.6"/>
+  <rect x="970" y="730" width="10" height="6" fill="url(#windowLight)" opacity="0.9"/>
+  <rect x="985" y="740" width="10" height="6" fill="url(#windowLight)" opacity="0.7"/>
+  
+  <!-- 하늘의 미묘한 구름 효과 -->
+  <ellipse cx="400" cy="200" rx="120" ry="30" fill="#e2e8f0" opacity="0.3"/>
+  <ellipse cx="800" cy="150" rx="150" ry="25" fill="#f1f5f9" opacity="0.25"/>
+  <ellipse cx="1300" cy="180" rx="100" ry="35" fill="#e2e8f0" opacity="0.35"/>
+  
+  <!-- 상단 글로우 라인들 - 도시의 빛 반사 -->
+  <path d="M0 400 Q480 380 960 400 T1920 400" stroke="#3b82f6" stroke-width="1" fill="none" opacity="0.3"/>
+  <path d="M0 450 Q480 430 960 450 T1920 450" stroke="#8b5cf6" stroke-width="1" fill="none" opacity="0.25"/>
+  
+  <!-- 전면 오버레이 - 밝기 조절 -->
+  <rect width="100%" height="100%" fill="url(#skyGlow)" opacity="0.3"/>
+</svg>
