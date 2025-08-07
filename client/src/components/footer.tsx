@@ -56,22 +56,18 @@ export default function Footer() {
             <ul className="space-y-3 text-secondary">
               <li className="flex items-center gap-2">
                 <Mail className="w-4 h-4 text-brand-primary" />
-                contact@aneunmarketing.co.kr
-              </li>
-              <li className="flex items-center gap-2">
-                <Phone className="w-4 h-4 text-brand-primary" />
-                02-1234-5678
+                anen25@gmail.com
               </li>
               <li className="flex items-center gap-2">
                 <MapPin className="w-4 h-4 text-brand-primary" />
-                서울특별시 강남구
+                경기도 고양시 덕양구권율대로656,16층 6호 일부(원흥동,클래시아더퍼스트)
               </li>
             </ul>
           </div>
         </div>
 
         <div className="border-t border-light-border pt-8 mt-8 text-center text-muted">
-          <p>&copy; 2024 주식회사 아는마케팅. All rights reserved.</p>
+          <p>&copy; 2025 주식회사 아는마케팅. All rights reserved.</p>
         </div>
       </div>
     </footer>
